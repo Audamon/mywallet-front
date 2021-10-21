@@ -1,6 +1,6 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-const LoginPage = styled.div`
+const SignUpPage = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,5 +51,4 @@ const Button = styled.button`
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 `
-
-export { LoginPage, Form, Input, Button }
+export {SignUpPage, Form, Input, Button}
