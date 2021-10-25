@@ -1,43 +1,36 @@
 import styled from "styled-components";
 
-const SignUpPage = styled.div`
+const TransactionPage = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-color: #8C11BE;
     height: 100vh;
-    font-family: 'Saira Stencil One', cursive;
+    padding: 25px 25px 0 25px ;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
     color: #ffffff;
-    font-size: 32px;
-    a{
-        font-size: 15px;
-        font-family: 'Raleway', sans-serif;
-        color: #ffffff;
-        text-decoration: none;
-        font-weight: 700;
-
-    }
-`
+    font-weight:700 ;
+` 
 const Form = styled.form`
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 85%;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 10px;
 `
 const Input = styled.input`
     border: none;
     margin-bottom: 15px;
-    height: 40px;
-    border-radius: 4px;
+    height: 50px;
     width: 100%;
-    font-size: 24px;
+    border-radius: 4px;
     ::placeholder{
-        font-size: 24px;
+        font-size: 22px;
         color: #000000;
         font-family: 'Raleway', sans-serif;
         
@@ -45,13 +38,14 @@ const Input = styled.input`
 `
 const Button = styled.button`
     width: 100%;
-    height: 40px;
+    height: 50px;
     border: none;
     border-radius: 4px;
     background-color: #A328D6;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 `
-export {SignUpPage, Form, Input, Button}
+
+export {TransactionPage, Form, Input, Button}
