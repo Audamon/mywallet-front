@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components';
 
 const LoginPage = styled.div`
     display: flex;
@@ -52,4 +52,6 @@ const Button = styled.button`
     font-weight: 700;
 `
 
-export { LoginPage, Form, Input, Button }
+export {
+  LoginPage, Form, Input, Button,
+};
