@@ -1,5 +1,5 @@
-import { createContext } from "react";
+import { createContext } from 'react';
 
 const LoggedUser = createContext();
 
-export {LoggedUser}
+export { LoggedUser };
