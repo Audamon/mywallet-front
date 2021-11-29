@@ -5,7 +5,7 @@ Demo `https://mywallet-front-bice.vercel.app`\
 ![](https://github.com/Audamon/mywallet-front/blob/main/public/Assets/myWallet.gif)
 
 # About
-- Dont't know waht to write here yet
+- Dont't know what to write here yet
 
 # How to run 
 
