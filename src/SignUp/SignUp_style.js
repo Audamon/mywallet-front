@@ -52,4 +52,6 @@ const Button = styled.button`
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 `;
-export { SignUpPage, Form, Input, Button };
+export {
+  SignUpPage, Form, Input, Button,
+};

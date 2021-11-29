@@ -47,4 +47,6 @@ const Button = styled.button`
   font-weight: 700;
 `;
 
-export { TransactionPage, Form, Input, Button };
+export {
+  TransactionPage, Form, Input, Button,
+};

@@ -44,6 +44,7 @@ function logout(body) {
 
 function getTransactions(config) {
   const route = 'wallet';
+  console.log(api);
   const promise = axios.get(api + route, config);
   promise.catch((err) => {
     if (err.response.status === 401) {

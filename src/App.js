@@ -1,8 +1,8 @@
-import Login from './Login/Login';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import Login from './Login/Login';
 import SingUp from './SignUp/SignUp';
 import { LoggedUser } from './Services/Context/LoggedUser.js';
-import { useState, useEffect } from 'react';
 import { getStoredUser } from './Services/Api/Api';
 import Wallet from './Wallet/Wallet';
 import TransactionIn from './Wallet/TransactionIn';
