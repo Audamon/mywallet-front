@@ -18,7 +18,7 @@ const LoginPage = styled.div`
         font-weight: 700;
 
     }
-`
+`;
 const Form = styled.form`
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ const Form = styled.form`
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-`
+`;
 const Input = styled.input`
     border: none;
     margin-bottom: 15px;
@@ -39,7 +39,7 @@ const Input = styled.input`
         font-family: 'Raleway', sans-serif;
         
     }
-`
+`;
 const Button = styled.button`
     width: 100%;
     height: 40px;
@@ -50,7 +50,7 @@ const Button = styled.button`
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-`
+`;
 
 export {
   LoginPage, Form, Input, Button,

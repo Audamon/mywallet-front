@@ -17,7 +17,7 @@ export default function Transactions({
 }) {
   const [balance, setBalance] = useState(0.0);
   useEffect(() => {
-    const token = getStoredUser().token;
+    const { token } = getStoredUser();
     const config = {
       headers: {
         Authorization: `Bearer ${token}`,
@@ -27,15 +27,12 @@ export default function Transactions({
     getTransactions(config).then((res) => setTransactionsData({ ...res.data }));
   }, [balance, transactionsData.totalBalance]);
 
-  if (
-    transactionsData.transactions === undefined ||
-    transactionsData.transactions.length === 0
-  ) {
+  if (transactionsData.transactions === undefined || transactionsData.transactions.length === 0) {
     return (
       <TransactionsHistory>Não há registro de transações</TransactionsHistory>
     );
-  } else {
-    return (
+  }
+  return (
       <TransactionsHistory>
         {transactionsData.transactions.map((t, index) => (
           <Row key={index}>
@@ -56,6 +53,5 @@ export default function Transactions({
           Saldo <Balance>{balance}</Balance>
         </BalanceBar>
       </TransactionsHistory>
-    );
-  }
+  );
 }
